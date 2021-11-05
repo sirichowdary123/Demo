@@ -1,0 +1,21 @@
+mkdir:  new directory
+rmdir:  remote directory
+cli:    command line interface
+ls-ltr: listing of files
+clear:  to clear
+pwd:    print working directory
+cd:     to change the current working directory
+cd basics: changing work into basics
+/:      navigating to root folder
+ls-l:   to get into separate line
+cd..:   TO get into before folder
+cat swapna.txt:It is used in files;to know what is present in the file,display the file
+ls -l |: to pass the information output from one command to another command
+su:      switching used
+/etc:    application related files will go
+touch:   empty file
+ls-ltra: to get the hidden files
+touch file1.txt file2.txt:  to create the two files
+cat file1.txt:  to get the initial content in file1
+
+
