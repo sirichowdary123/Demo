@@ -1,0 +1,45 @@
+su=switching into user
+passwd userid=to change the password
+cd=changin current working directory
+cd /etc=it gets into etc
+ls =listing files present in the directory
+ls -l=Displays one item in a single row
+ls *=list the files inside a folder
+ls -lh=human readable format
+ls -lhr=order is being reversed
+ls -lt=displays the recent modified file
+ls -l zsh=it gives all the lines present in zsh
+ls-l | grep apache2=gives the apache2 file
+chmod a-r file1.txt=to remove permission for total
+chmod g+r file1.txt=to add the read permission for groupuser
+ls -li file1.txt=inode number will be displayed
+ln file2.txt random.txt=to link the two files to give of same data.inode num will
+be same
+vi file2.txt=to modify the initial content in file2.txt
+rmdir powerline=to remove powerline directory
+ls -l --author=to know the author
+
+Redirects:
+**********
+echo"hello world">file2.txt=to modify the content
+echo"sdlc concept is also interesting">>usha
+
+rm -r siri=to delete the directory in recursive fashion
+rm -rf siri=remove forcefully and recursively 
+
+copy:
+****
+cp iphone macbook:copy the information present in iphone and followed by 
+a macbook
+cp iphone iphonexr:content will be same but the two files will be displayed
+mv: performs move operation and rename operation
+mv iphone iphone12:iphone will be replaced by iphone12
+
+|:
+**
+ls -l | more: to connect the o/p of one command to the other
+ls -l | tail-5:Displays the last 5 lines
+Q:TO QUIT 
+
+
+
