@@ -1,0 +1,72 @@
+vi-commands:
+***********
+To create a file (vi- zebra):It directly enters into zebrafile
+
+Inside your VI Editor:
+*********************
+2 modes:
+=>command mode
+=>Insert mode
+
+To save your file contents and to exit
+Esc+:+w+q+enter
+To wanted to Quit without saving
+Esc+:+q+!enter
+
+=>i-Take you to insert mode
+=>Esc-Terminate your insert mode & will goto command mode
+=>u-undo your last change
+=>U-undo all changes to the entire line
+=>o-open a new line
+=>dd-Delete the current line where cursor is present
+=>3dd-delete 3 lines 
+=>D-Delete contents of line after the cursor
+=>C-Delete contents of a line after the cursor and insert new text.press Esc key 
+       to end the insertion
+=>dw-delete a word
+=>4dw-delete 4 words
+=>cw-change word
+=>x-delete character at the cursor
+=>r-replace character
+=>shift+zz-save the file and quit
+=>w-save the file but file will be still open
+=>q-quit without saving
+=>wq-quit after saving
+=>gg-Take your cursor to the first character of your file
+=>dG-delete all the lines or text inside the file
+=>/var-searching for specific word which is often repeated
+
+vi
+vi improved -vim
+Elvis
+Nvi
+Nano
+vile
+syntax:
+*******
+vi filename
+vi existing_filename
+vi newfile_wantedtocreate
+
+command mode --------->insert mode
+             i
+insert mode ----------->command mode
+          Esc
+
+chmod using Numeric characters:
+*******************************
+
+
+Number 		     Represents				      Status
+
+0			No Permission				---
+1			Execute Permission			--x
+2			Write Permission			-w-
+3			Execute and write			-wx
+4			Read Permission			        r--
+5			Read, Execute				r-x
+6			Read, Write 				rw-
+7			Read, Write and Execute		        rwx
+
+
+
