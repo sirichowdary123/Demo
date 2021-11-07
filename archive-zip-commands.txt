@@ -1,0 +1,47 @@
+ARCHIVE:
+********
+Grouping memory is still the same -------->source files
+1.4gb                                       1.4gb
+
+COMPRESSION-TECHNIQUE--------ALGORITHMS(gzip,bz2)
+.exe-----windows
+.tar.gz----linux
+.dmg------macos
+
+Flags:
+******	
+Source Side Archive / Compression file Creation:
+	
+		-c 		Create a new archive  .tar
+		-v		Verbose Output (display all the contents - archive)
+		-f file.tar.gz  - Use archive file as name
+		-z 		Apply this compression technique (gzip)   .tar.gz
+		-j 		Apply this compression technique (bzip2)  .tar.bz2
+
+
+Destination Side : decompress / extract all contents :
+
+		-x		Extract of all files from the archive
+		-t 		display list all the contents in an archive
+		-v 		verbose output 
+		-f file.tar.gz   Use archive file name 
+		--exclude : Exclude files matching PATTERN/ DIR/FILENAME
+		-j
+		-z
+
+zip source_archive_name.zip file1
+unzip source_archive_name.zip file1
+
+.tar----------->compression technique----->.tar.gz
+                                           .tar.bz2
+                                           .tar.xz
+tar -cvf cartoon.tar jerry tom
+tar -xf cartoon.tar
+tar -cvzf myfavourite.tar.gz
+tar -xzf myfavourite.tar.gz filename
+tar -cvjf myfiles.tar.bz2 iphonexr jerry macbook --exclude="/home/naveen/desktop/ashoka/tom
+tar -xjf myfiles.tar.bz -C/home/naveen/desktop/destination(to extract the file)
+tar -zxvf apple.tar.gz hobbies -C/home/naveen/desktop/apple(if we give specific file name
+                                              it enters into specific file)
+        
+
