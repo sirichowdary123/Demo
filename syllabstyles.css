@@ -1,0 +1,31 @@
+.html,.css,.jss,.reactjs,.angular,.vuejs{
+    display:block;
+    
+   color:darkblue;
+   font-style:italic;
+}
+.parent{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+    background: linear-gradient(135deg, red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.head{
+    display:flex;
+    gap:10px;
+}
+.html-wrapper,.css-wrapper,.jss-wrapper,
+.angular-wrapper,.vuejs-wrapper,.reactjs-wrapper{
+    
+}
+.heading{
+    color:orange;
+    font-style: oblique;
+    display:block;
+    padding-left:55px;
+    padding-right:40px;
+    border-bottom: 2px solid olive;
+    
+}
